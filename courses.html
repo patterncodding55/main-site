@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Two</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- swipper js -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- font-icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .header .navbar a{
+        color: var(--color-bg);
+    }
+    .courses {
+        position: relative;
+        top: 10rem;
+        
+    }
+    .footer {
+        position: relative;
+        top: 20rem;
+        background: var(--color-white);
+        color: var(--color-bg);
+    }
+    .footer-socials a i{
+          color: var(--color-bg);
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 50px 15px;
+    }
+    .footer-container > div h4 {
+        color: var(--color-bg);
+    }
+    .footer-1 {
+        color: var(--color-bg);
+        
+    }
+    
+    footer ul li a{
+        color: var(--color-bg);
+    } 
+    .footer-copyright {
+        border-top: 1px solid var(--color-bg);
+    }
+    
+    
+</style>
+<body>
+    <header class="header header-container">
+        <a href="index.html" class="logo">PatternCodding</a>
+
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <i class='fa fa-close' id="menu-close"></i>
+   
+    <nav class="navbar nav-menu">
+        <div class="container nav-container">
+
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a>
+        <a href="/portfolio/index.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+
+        <i class="fa fa-moon-o" id="darkMode-icon"></i>
+        <!-- <button class="open-menu-btn"><i class="fa fa-bars" id="menu-open"></i></button>
+        <button class="close-menu-btn"><i class='fa fa-close' id="menu-close"></i></button> -->
+    </div>
+    </nav>
+</header>
+
+
+<!-- courses section -->
+<section class="services courses" id="services">
+    <h1>Our porpular Course</h1>
+    <div class="services-content container courses-container">
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/data (1).jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Data Science</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/ai1.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Machine Learning</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/design1.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Web Design</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/teach1.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Web Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/python.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Python</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/js-react.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Hero Javascript and react</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/python-web.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Complete Full Stack with python(Django)</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/full-sstack.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Complete Full Stack with Javascript(Node)</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+        <article class="services-box">
+            <div class="course-image">
+                <img src="images/pro3.jpg" alt="">
+            </div>
+           <div class="courses-info">
+            <h4>Zero to Master Graphic Designs</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium eos 
+            facilis doloribus suscipit excepturi soluta repudiandae ullam! Culpa quas 
+            mollitia, reiciendis asperiores impedit iste enim alias facilis aliquid rem deleniti?
+        </p>
+           </div>
+        <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </article>
+     </div>
+</section>
+
+<!-- footer -->
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <div class="footer-1">
+            <a href="index.html" class="footer-logo"></a>
+            <h4>PatternCodding</h4>
+            <p>PatternCodding Tech Academy is a modern Tech School where zero knowledge are
+             feed up with unmesurerable programming skill</p>
+        </div>
+
+        <div class="footer-2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+               <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Payment</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-4">
+            <h4>Contact Us</h4>
+            <div class="">
+                <p>+234 810 122 4630</p>
+                <p>+234 902 719 90417</p>
+            </div>
+
+            <div class="footer-socials">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <small>copyright &copy; PatternCodding Tech Academy</small>
+    </div>
+</footer>
+
+<script src="index.js"></script>
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>

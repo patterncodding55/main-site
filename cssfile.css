@@ -1,0 +1,191 @@
+body {
+    /* background-color: aquamarine; */
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+
+/* navbar section */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e4f9f9;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+  }
+.float-right {
+    float: right;
+    position: relative;
+    right: 10%;
+}
+.up-image{
+    left: 150%;
+}
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 10px;
+    text-decoration: none;
+    position: relative;
+    top: -2px;
+  }
+  
+  li a:hover{
+   color: #11999E;
+  }
+h1{
+    /* margin-top: 0; */
+    font-family: 'Sacramento', cursive;
+    /* font-size: 90px; same as below
+    same as em
+    */
+    font-size: 562.5%;
+    margin: 50px auto 0 auto;
+    color: #11999E;
+    /* line-height: 2; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    width: 8%;
+    border: dotted #EAf6f6;
+    border-bottom: none;
+    margin: 100px auto;
+}
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+}
+a:hover {
+    color: #EAf6f6;
+}
+/* cloud and mountain */
+.project {
+    background-color: #e4f9f9;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.skill-row {
+    width: 50%; 
+    margin: 100px auto 100px auto;
+    text-align: left;
+    /* line-height: 2; */
+ }
+
+ .intro {
+    width: 30%;
+    margin: auto;
+}
+.copyright {
+    color: #EAf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+ 
+.skill-image {
+    width: 25%;
+    /* margin-left: 40%; */
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-image2 {
+    width: 25%;
+    /* margin-left: 40%; */
+    float: right;
+    margin-left: 30px;
+}
+
+/* making the text not to wrap around 
+clear is an anti float
+*/
+
+/* .description {
+    clear: left;
+} */
+
+/* https://css3buttongenerator.com/ 
+button generators website
+*/
+
+/* generated btn */
+.btn {
+    background: #11999e;
+    background-image: -webkit-linear-gradient(top, #11999e, #11999e);
+    background-image: -moz-linear-gradient(top, #11999e, #11999e);
+    background-image: -ms-linear-gradient(top, #11999e, #11999e);
+    background-image: -o-linear-gradient(top, #11999e, #11999e);
+    background-image: linear-gradient(to bottom, #11999e, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  /* bottom */
+  .bottom-container {
+    background-color: #66bfbf;
+    padding:  50px 0 20px;
+  }

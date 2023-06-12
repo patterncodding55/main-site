@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Two</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+     <!-- swipper js -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+     <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- font-icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <header class="header header-container">
+        <a href="index.html" class="logo">PatternCodding</a>
+
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <i class='fa fa-close' id="menu-close"></i>
+   
+    <nav class="navbar nav-menu">
+        <div class="container nav-container">
+
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="projects.html">Projects</a>
+        <a href="/portfolio/index.html">Portfolio</a>
+        <i class="fa fa-moon-o" id="darkMode-icon"></i>
+    </div>
+    </nav>
+</header>
+
+ <!-- Contact Section -->
+ <section class="contact">
+    <div class="contact contact-container">
+        <aside class="contact-aside">
+            <div class="aside-image">
+                <img src="images/achievements/ach4.jpg" alt="">
+            </div>
+            <h2>Contact Us</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto natus 
+                cumque minus veritatis quos dolorem molestiae molestias dolores, odit eos!
+            </p>
+            <ul class="contact-details">
+                <li>
+                    <i class="fa fa-phone"></i>
+                    <h5>+2348101224630</h5>
+                </li>
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <h5>chineduogbona557@gmail.com</h5>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker"></i>
+                    <h5>RCC Estate Water works Abakaliki Ebonyi state Nigeria</h5>
+                </li>
+            </ul>
+            <ul class="contact-socials">
+                <li>
+                    <a href="https://facebook.com"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://instagram.com"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://whatsapp.com"><i class="fa fa-whatsapp"></i></a>
+                </li>
+            </ul>
+        </aside>
+        <!-- 
+            to make the form work properly go to 
+            formspree.io and create verify and sign in
+            create a form and copy the url 
+            paste it in your form action
+            method=
+            post
+         -->
+
+        <form class="contact-form" method="POST"
+         action="https://formspree.io/f/mqkojvba">
+            <div class="form-name">
+                <input type="text" name="Fname" placeholder="Enter your First Name" required>
+                <input type="text" name="Lname" placeholder="Enter your Last Name" required>
+            </div>
+            <input type="email" name="email Address" placeholder="Enter Your Email Address" required>
+            <textarea name="Message" rows="7" placeholder="Type Your Message Here" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+ </section>
+
+
+<!-- footer -->
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <div class="footer-1">
+            <a href="index.html" class="footer-logo"></a>
+            <h4>PatternCodding</h4>
+            <p>PatternCodding Tech Academy is a modern Tech School where zero knowledge are
+             feed up with unmesurerable programming skill</p>
+        </div>
+
+        <div class="footer-2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+               <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Refund Payment</a></li>
+
+            </ul>
+        </div>
+
+        <div class="footer-4">
+            <h4>Contact Us</h4>
+            <div class="">
+                <p>+234 810 122 4630</p>
+                <p>+234 902 719 90417</p>
+            </div>
+
+            <div class="footer-socials">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <small>copyright &copy; PatternCodding Tech Academy</small>
+    </div>
+</footer>
+
+<script src="index.js"></script>
+
+<!-- scroll reveal -->
+<script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
